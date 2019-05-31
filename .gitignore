@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build
+
+# Maven
+target
+
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# OS X
+.DS_STORE
+
