@@ -2,7 +2,11 @@ module.exports = {
   extends: [
     '@elastic/eslint-config-kibana'
   ],
+  plugins: [
+    'siren'
+  ],
   rules: {
+    'siren/memoryleaks': 1
     "no-unused-vars": 0,
     "no-var": 1,
     "prefer-const": 1,
@@ -15,6 +19,6 @@ module.exports = {
     "import/default": 0,
     "memoryleaks": 1,
     "keyword-spacing": 2,
-    "comma-spacing": 2,
+    "comma-spacing": 2
   }
 };
