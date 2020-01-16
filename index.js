@@ -19,6 +19,6 @@ module.exports = {
     "import/default": 0,
     "memoryleaks": 1,
     "keyword-spacing": 2,
-    "comma-spacing": 2
+    "no-console": ["error", { allow: ["warn", "error"] }]
   }
 };
