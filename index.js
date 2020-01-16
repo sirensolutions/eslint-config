@@ -10,6 +10,7 @@ module.exports = {
     'siren'
   ],
   rules: {
-    'siren/memoryleaks': 1
+    'siren/memoryleaks': 1,
+    "no-console": ["warn", { allow: ["warn", "error"] }]
   }
 };
