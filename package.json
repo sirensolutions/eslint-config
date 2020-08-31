@@ -3,7 +3,7 @@
   "description": "The eslint config used by the Siren team",
   "keywords": [],
   "private": false,
-  "version": "0.1.0",
+  "version": "0.4.0",
   "main": "index.js",
   "bugs": {
     "url": "https://github.com/sirensolutions/kibi/issues"
@@ -15,17 +15,25 @@
     "url": "git+https://github.com/sirensolutions/eslint-config.git"
   },
   "dependencies": {
-    "@elastic/eslint-config-kibana": "^0.7.0",
+    "@elastic/eslint-config-kibana": "github:sirensolutions/kbn-packages#elastic-eslint-config-kibana-v7.8.0-gitpkg",
     "@elastic/eslint-import-resolver-kibana": "0.9.0",
     "@elastic/eslint-plugin-kibana-custom": "^1.1.0",
     "ajv": "^6.10.0",
     "babel-eslint": "7.2.3",
     "eslint": "4.14.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-babel": "4.1.1",
+    "eslint-plugin-ban": "^1.4.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jest": "20.0.3",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-mocha": "6.1.0",
-    "eslint-plugin-react": "7.5.1"
+    "eslint-plugin-no-unsanitized": "^3.0.2",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "7.5.1",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prettier": "^2.0.5"
   },
   "peerDependencies": {
     "eslint-plugin-siren": "sirensolutions/eslint-plugin-siren"
