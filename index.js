@@ -11,6 +11,7 @@ module.exports = {
   ],
   rules: {
     'siren/memory-leak': "warn",
+    'siren/same-core-dependency-version': 'warn',
     "no-console": ["warn", { allow: ["warn", "error"] }]
   }
 };
