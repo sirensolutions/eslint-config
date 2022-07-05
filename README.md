@@ -1,7 +1,7 @@
 NO LONGER USED 
 ==============
 
-To adjast a rule see https://github.com/sirensolutions/eslint-plugin/blob/master/configs/recommended.js
+To adjust a rule see https://github.com/sirensolutions/eslint-plugin/blob/master/configs/recommended.js
 
 
 # eslint-config
