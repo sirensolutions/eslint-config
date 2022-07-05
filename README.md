@@ -1,3 +1,9 @@
+NO LONGER USED 
+==============
+
+To adjast a rule see https://github.com/sirensolutions/eslint-plugin/blob/master/configs/recommended.js
+
+
 # eslint-config
 The eslint config used by the Siren team.
 It extend the kibana one referenced in
